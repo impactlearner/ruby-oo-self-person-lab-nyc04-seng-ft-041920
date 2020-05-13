@@ -16,6 +16,7 @@ attr_accessor :bank_account, :happiness, :hygiene
 
   def hygiene= (hygiene)
     @hygiene = hygiene
+    binding.pry
     if @hygiene > 10
       @hygiene = 10
     elsif @hygiene < 0
@@ -44,7 +45,6 @@ attr_accessor :bank_account, :happiness, :hygiene
   end
   def take_bath
     hygiene= @hygiene + 4
-    binding.pry
     "♪ Rub-a-dub just relaxing in the tub ♫"
   end
 def work_out
