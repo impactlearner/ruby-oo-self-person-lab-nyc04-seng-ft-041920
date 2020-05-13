@@ -44,6 +44,7 @@ attr_accessor :bank_account, :happiness
     "all about the benjamins"
   end
   def take_bath
+    binding.pry
     hygiene= @hygiene + 4
     "♪ Rub-a-dub just relaxing in the tub ♫"
   end
