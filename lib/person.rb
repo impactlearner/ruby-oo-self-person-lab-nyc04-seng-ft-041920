@@ -15,6 +15,7 @@ attr_accessor :bank_account, :happiness, :hygiene
   end
 
   def hygiene= (hygiene)
+    binding.pry
     @hygiene = hygiene
     if @hygiene > 10
       @hygiene = 10
