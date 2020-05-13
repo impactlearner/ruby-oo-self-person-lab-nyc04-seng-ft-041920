@@ -73,4 +73,4 @@ end
 end
 end
 
-person.take_bath
+person = person.new
