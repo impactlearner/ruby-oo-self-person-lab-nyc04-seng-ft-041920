@@ -16,7 +16,6 @@ attr_accessor :bank_account, :happiness, :hygiene
 
   def hygiene= (hygiene)
     @hygiene = hygiene
-    binding.pry
     if @hygiene > 10
       @hygiene = 10
     elsif @hygiene < 0
@@ -73,5 +72,5 @@ end
 end
 end
 
-person = Person.new
+person = Person.new("Jim")
 binding.pry
