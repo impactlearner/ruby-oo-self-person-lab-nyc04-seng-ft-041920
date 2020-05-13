@@ -73,4 +73,4 @@ end
 end
 end
 
-person = person.new
+person = Person.new
