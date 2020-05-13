@@ -72,3 +72,5 @@ end
 
 end
 end
+
+person.take_bath
