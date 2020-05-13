@@ -47,8 +47,8 @@ attr_accessor :bank_account
     "♪ Rub-a-dub just relaxing in the tub ♫"
   end
 def work_out
-  @happiness +=2
-  @hygiene -=3
+  self.happiness =(@happiness-2)
+  self.hygiene=(@hygiene-3)
   "♪ another one bites the dust ♫"
 end
 def call_friend(friend)
