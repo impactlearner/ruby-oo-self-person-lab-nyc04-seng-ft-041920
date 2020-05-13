@@ -52,8 +52,8 @@ def work_out
   "♪ another one bites the dust ♫"
 end
 def call_friend(friend)
-  @happiness +=3
-  friend.happiness +=3
+  self.happiness =(@happiness+3)
+  friend.happiness =(@happiness+3)
   "Hi#{friend.name}! It's #{@name}. How are you?"
 end
 def start_conversation (friend, topic)
