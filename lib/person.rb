@@ -15,7 +15,6 @@ attr_accessor :bank_account, :happiness
   end
 
   def hygiene= (hygiene)
-    binding.pry
     @hygiene = hygiene
     if @hygiene > 10
       @hygiene = 10
@@ -44,8 +43,7 @@ attr_accessor :bank_account, :happiness
     "all about the benjamins"
   end
   def take_bath
-    binding.pry
-    hygiene= @hygiene + 4
+    self.hygiene=(@hygiene + 4)
     "♪ Rub-a-dub just relaxing in the tub ♫"
   end
 def work_out
@@ -75,4 +73,3 @@ end
 end
 
 person = Person.new("Ruby")
-binding.pry
