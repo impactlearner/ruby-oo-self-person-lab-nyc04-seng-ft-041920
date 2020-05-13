@@ -74,3 +74,4 @@ end
 end
 
 person = Person.new
+binding.pry
