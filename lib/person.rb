@@ -72,5 +72,5 @@ end
 end
 end
 
-person = Person.new("Jim")
+person = Person.new("Ruby")
 binding.pry
